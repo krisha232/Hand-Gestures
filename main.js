@@ -40,15 +40,15 @@ function take_snapshot(){
             prediction_1=results[0].label;
            
             speak();
-            if(results[0].label== "Happy" ){
-                document.getElementById("update_emoji").innerHTML="&#128522;";
+            if(results[0].label== "Best" ){
+                document.getElementById("update_emoji").innerHTML="&#128077;";
             }
-                        if(results[0].label=="Sad"){
-                document.getElementById("update_emoji").innerHTML="&#128532;";
+                        if(results[0].label=="Victory"){
+                document.getElementById("update_emoji").innerHTML="&#9996;";
             }
             
-            if(results[0].label== "Angry" ){
-                document.getElementById("update_emoji").innerHTML="&#128548;";
+            if(results[0].label== "Amazing" ){
+                document.getElementById("update_emoji").innerHTML="&#128076;";
             }
            
         }
